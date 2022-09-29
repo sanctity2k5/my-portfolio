@@ -1,6 +1,5 @@
 import React from "react";
 import AboutImg from "../assets/img/about.png";
-import AboutTwo from "../assets/img/about-2.jpg";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init()

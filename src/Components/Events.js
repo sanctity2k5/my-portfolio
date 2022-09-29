@@ -1,6 +1,5 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper";
 import SwiperCore, {Autoplay} from "swiper"
 import EventItems from "./EventItems";
 
