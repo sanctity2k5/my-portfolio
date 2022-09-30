@@ -264,7 +264,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
-  background: #fff;
+  background: #000;
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
@@ -283,8 +283,9 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 60px;
   margin-right: 6px;
+  margin-left: -16px
 }
 
 .header .logo h1 {
@@ -544,7 +545,7 @@ section {
   }
 
   .mobile-nav-show {
-    color: var(--color-secondary);
+    color: #fff;
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
@@ -752,6 +753,9 @@ section {
   background: var(--color-primary);
   color: #fff;
 }
+.why-us{
+  background: #fff;
+}
 
 .why-us .why-box h3 {
   font-weight: 700;
@@ -830,11 +834,6 @@ section {
 /*--------------------------------------------------------------
 # Stats Counter Section
 --------------------------------------------------------------*/
-.stats-counter {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/stats-bg.jpg") center center;
-  background-size: cover;
-  padding: 100px 0;
-}
 
 @media (min-width: 1365px) {
   .stats-counter {
@@ -923,7 +922,7 @@ section {
 
 .menu, .tab-content, .tab-header, p {
   font-size: 14px;
-  text-transform: uppercase;
+  text-transform: none;
   color: #676775;
   margin-bottom: 0;
 }
@@ -945,7 +944,7 @@ section {
 }
 
 .menu, .tab-content, .menu-item, h4 {
-  font-size: 22px;
+  font-size: 21px;
   font-weight: 500;
   color: var(--color-secondary);
   font-family: var(--font-secondary);
@@ -967,6 +966,7 @@ section {
   font-size: 24px;
   font-weight: 700;
   color: var(--color-primary);
+  background: #eee;
 }
 
 /*--------------------------------------------------------------
@@ -1066,7 +1066,7 @@ section {
 
 .events .event-item {
   background-size: cover;
-  background-position: cente;
+  background-position: center;
   min-height: 600px;
   padding: 30px;
 }
@@ -1146,18 +1146,6 @@ section {
 .chefs .chef-member .member-img {
   position: relative;
   overflow: hidden;
-}
-
-.chefs .chef-member .member-img:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  background: url(../assets//img/stats-bg.jpg) no-repeat center bottom;
-  background-size: contain;
-  z-index: 1;
 }
 
 .chefs .chef-member .social {

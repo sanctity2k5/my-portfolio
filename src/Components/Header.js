@@ -32,7 +32,7 @@ function Header() {
 
     <nav id="navbar" className="navbar" onClick={removeNav}>
       <ul>
-        <li><a className='link' href="#hero">Home</a></li>
+        <li><a className='link' href="#home">Home</a></li>
         <li><a className='link' href="#about">About</a></li>
         <li><a className='link' href="#menu">My Services</a></li>
         <li><a className='link' href="#why-us">Why Me?</a></li>

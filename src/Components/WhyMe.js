@@ -27,7 +27,7 @@ function WhyMe() {
                 I am the most complete developer in the Software Development Industry. 
               </p>
               <div className="text-center">
-                <a href="#about" className="more-btn">Reach Out <i className="bx bx-chevron-right"></i></a>
+                <a href="#contact" className="more-btn">Reach Out <i className="bx bx-chevron-right"></i></a>
               </div>
             </div>
           </div>

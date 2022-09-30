@@ -75,7 +75,8 @@ function Contact() {
     }
     //Error Sending Message
     const [errorMessage, sendErrorMessage] = useState(false);
-    let err = <div className="none"></div>
+    //Use the none class name after Oct. 23rd
+    let err = <div className="error">Hi, I'm sorry but this email platform is still under construction feel free to use any of the social media platforms 👇👇👇</div>
     if(errorMessage) {
       err = 
       <div className="error">Message Not Sent... This might be due to some technical issues from our end, Pleae try again later</div>
@@ -92,7 +93,7 @@ function Contact() {
     <div className="container" data-aos="fade-up">
 
       <div className="section-header">
-        <h2>For Business Purposes Only</h2>
+        <h2>For Business/Work Purposes Only</h2>
         <p>Need Help? <span>Contact Me</span></p>
       </div>
 
