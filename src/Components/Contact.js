@@ -8,7 +8,7 @@ import Spinner from 'react-bootstrap/Spinner';
 
 const TopSnippets = [
     {icon: "icon bi bi-geo-alt flex-shrink-0", title: "My Address", subtitle: "No.25 St. Paul's Road Anambra State"},
-    {icon: "icon bi bi-envelope flex-shrink-0", title: "Email Me", subtitle: "kachicoder@gmail.com"},
+    {icon: "icon bi bi-envelope flex-shrink-0", title: "Email Me", subtitle: "sanctity2k5@gmail.com"},
     {icon: "icon bi bi-telephone flex-shrink-0", title: "Call Me", subtitle: "+234 810 6338 171"},
     {icon: "icon bi bi-share flex-shrink-0", title: "Opening Hours", subtitle: "Mon-Fri: 7:00AM - 5:00PM", strong: "strong"}
 ]
@@ -44,7 +44,7 @@ function Contact() {
   };
 
 
-   await emailjs.send('service_gk0wkv4', 'template_4zg9242', formParams, 'SOaY5uJJoDLNKUAYw')
+   await emailjs.send('service_zmoobbe', 'template_tzu1mki', formParams, 'oYXXK_Z7HmbBMQYda')
       .then((result) =>{
         setMessageSent(true)
       }, (error) => {
@@ -76,7 +76,7 @@ function Contact() {
     //Error Sending Message
     const [errorMessage, sendErrorMessage] = useState(false);
     //Use the none class name after Oct. 23rd
-    let err = <div className="error">Hi, I'm sorry but this email platform is still under construction feel free to use any of the social media platforms 👇👇👇</div>
+    let err = <div className="none"></div>
     if(errorMessage) {
       err = 
       <div className="error">Message Not Sent... This might be due to some technical issues from our end, Pleae try again later</div>
