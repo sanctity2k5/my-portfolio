@@ -16,7 +16,7 @@ function UpperSection() {
           <h2 data-aos="fade-up">Hi, I am<br />Anyadi Onyekachukwu</h2>
           <p data-aos="fade-up" data-aos-delay="100">Full Stack Web Developer</p>
           <div className="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href={file} download={file} className="btn-book-a-table">Download Cv</a>
+            <a href={file} download={file} className="btn-book-a-table">Download Resume</a>
           </div>
         </div>
         <div className="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
