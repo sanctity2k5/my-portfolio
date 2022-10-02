@@ -112,8 +112,6 @@ function Contact() {
         </div>
         <form ref={form} onSubmit={sendEmail} className="php-email-form p-3 p-md-4">
         <div className="row">
-        </div>
-        <div className="row">
         {Forms.map ((Forms, index) =>{
             return<ContactForm {... Forms} key={index} />
         
